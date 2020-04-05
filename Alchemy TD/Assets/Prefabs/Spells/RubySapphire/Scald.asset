@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00cfca404ae81b4eb893e94f802a345, type: 3}
+  m_Name: Scald
+  m_EditorClassIdentifier: 
+  name: Scald
+  description: Conjure a super-heated mist to damage your foes, dealing water damage.
+  damage: 100
+  cost: 30
+  hasProjectile: 0
+  spellProjectile: {fileID: 1575274624552722, guid: 92d0d198a4f3f4445bde885183de7113,
+    type: 2}
+  hasAreaOfEffect: 1
+  isTower: 0
+  isWall: 0
+  areaOfEffect: {fileID: 1660508210202340, guid: 41c56132cb45745d3b7b7ead8dddc960,
+    type: 2}
+  isCraftable: 1
+  reagents: 0000000002000000
+  snapMode: 0

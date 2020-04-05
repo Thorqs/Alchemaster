@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00cfca404ae81b4eb893e94f802a345, type: 3}
+  m_Name: Arcane Bolt
+  m_EditorClassIdentifier: 
+  name: Arcane Bolt
+  description: Launch a small bolt of arcane energy at a target location, dealing
+    non-elemental damage.
+  damage: 50
+  cost: 5
+  hasProjectile: 1
+  spellProjectile: {fileID: 1149921618979200, guid: 9a2f1ff4aa077446881cde84d86d9fbc,
+    type: 2}
+  hasAreaOfEffect: 1
+  isTower: 0
+  isWall: 0
+  areaOfEffect: {fileID: 1692161175011106, guid: 47763d91233294816aea417813518422,
+    type: 2}
+  isCraftable: 1
+  reagents: 0400000004000000
+  snapMode: 0

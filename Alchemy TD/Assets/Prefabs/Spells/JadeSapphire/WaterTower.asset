@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00cfca404ae81b4eb893e94f802a345, type: 3}
+  m_Name: WaterTower
+  m_EditorClassIdentifier: 
+  name: Water Tower
+  description: Summon a persistent swamp that creates a toxic mire to slow and posion
+    nearby foes.
+  damage: 0
+  cost: 15
+  hasProjectile: 0
+  spellProjectile: {fileID: 1575274624552722, guid: ca64a87c0517b484a8ec343723aaed54,
+    type: 2}
+  hasAreaOfEffect: 0
+  isTower: 1
+  isWall: 0
+  areaOfEffect: {fileID: 1300423577305716, guid: 375709b2b493a471fb8b54dc635a8b0d,
+    type: 2}
+  isCraftable: 1
+  reagents: 0200000001000000
+  snapMode: 1

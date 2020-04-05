@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00cfca404ae81b4eb893e94f802a345, type: 3}
+  m_Name: SnowStorm
+  m_EditorClassIdentifier: 
+  name: Snow Storm
+  description: Conjure a frigid snow storm that chills foes and slows their advance,
+    dealing water damage.
+  damage: 50
+  cost: 10
+  hasProjectile: 0
+  spellProjectile: {fileID: 1575274624552722, guid: ca64a87c0517b484a8ec343723aaed54,
+    type: 2}
+  hasAreaOfEffect: 1
+  isTower: 0
+  isWall: 0
+  areaOfEffect: {fileID: 1660508210202340, guid: 62cf3c94921ac47ce809c1f96b6c54c2,
+    type: 2}
+  isCraftable: 1
+  reagents: 0200000003000000
+  snapMode: 0

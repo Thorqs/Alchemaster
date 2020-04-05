@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00cfca404ae81b4eb893e94f802a345, type: 3}
+  m_Name: CreateWall
+  m_EditorClassIdentifier: 
+  name: Create Wall
+  description: Summon a mighty wall of earth to redirect your foes.
+  damage: 0
+  cost: 1
+  hasProjectile: 0
+  spellProjectile: {fileID: 1575274624552722, guid: 553b2ca6655357a44aabf08589d11fa1,
+    type: 2}
+  hasAreaOfEffect: 0
+  isTower: 0
+  isWall: 1
+  areaOfEffect: {fileID: 1821261135285364, guid: 52c2d62b35ca643aea4f0f39b4044508,
+    type: 2}
+  isCraftable: 1
+  reagents: 0100000001000000
+  snapMode: 2
